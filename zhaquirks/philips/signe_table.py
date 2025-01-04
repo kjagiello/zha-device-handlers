@@ -1,4 +1,4 @@
-"""Signify LCX006 device."""
+"""Hue Signe Fradient Table Lamp device."""
 
 from zigpy.quirks.v2 import QuirkBuilder
 
