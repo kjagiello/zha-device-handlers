@@ -2,7 +2,7 @@
 
 from zigpy.quirks.v2 import QuirkBuilder
 
-from zhaquirks.philips.gradient import PhilipsGradientCluster
+from zhaquirks.philips import PhilipsHueCluster
 
 (
     QuirkBuilder()
@@ -19,6 +19,6 @@ from zhaquirks.philips.gradient import PhilipsGradientCluster
         model="Hue Signe Gradient Floor Lamp",
         manufacturer="Philips",
     )
-    .replaces(PhilipsGradientCluster, endpoint_id=11)
+    .replaces(PhilipsHueCluster, endpoint_id=11)
     .add_to_registry()
 )

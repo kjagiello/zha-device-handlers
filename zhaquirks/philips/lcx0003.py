@@ -2,7 +2,7 @@
 
 from zigpy.quirks.v2 import QuirkBuilder
 
-from zhaquirks.philips.gradient import PhilipsGradientCluster
+from zhaquirks.philips import PhilipsHueCluster
 
 (
     QuirkBuilder("Signify Netherlands B.V.", "LCX003")
@@ -10,6 +10,6 @@ from zhaquirks.philips.gradient import PhilipsGradientCluster
         model="Hue Play Gradient Lightstrip 75",
         manufacturer="Philips",
     )
-    .replaces(PhilipsGradientCluster, endpoint_id=11)
+    .replaces(PhilipsHueCluster, endpoint_id=11)
     .add_to_registry()
 )
