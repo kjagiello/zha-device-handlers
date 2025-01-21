@@ -2,10 +2,10 @@
 
 from zigpy.quirks.v2 import QuirkBuilder
 
-from zhaquirks.philips import PhilipsHueCluster
+from zhaquirks.philips import PhilipsHueCluster, SIGNIFY
 
 (
-    QuirkBuilder("Signify Netherlands B.V.", "LCX005")
+    QuirkBuilder(SIGNIFY, "LCX005")
     .friendly_name(
         model="Hue Play Gradient Lightstrip for PC (24-27)",
         manufacturer="Philips",
