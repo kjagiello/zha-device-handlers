@@ -2,10 +2,10 @@
 
 from zigpy.quirks.v2 import QuirkBuilder
 
-from zhaquirks.philips import PhilipsHueCluster
+from zhaquirks.philips import SIGNIFY, PhilipsHueCluster
 
 (
-    QuirkBuilder("Signify Netherlands B.V.", "LCX012")
+    QuirkBuilder(SIGNIFY, "LCX012")
     .friendly_name(
         model="Hue Festavia Gradient Light String 250 (1st-gen)",
         manufacturer="Philips",

@@ -2,14 +2,14 @@
 
 from zigpy.quirks.v2 import QuirkBuilder
 
-from zhaquirks.philips import PhilipsHueCluster
+from zhaquirks.philips import SIGNIFY, PhilipsHueCluster
 
 (
     QuirkBuilder()
-    .applies_to("Signify Netherlands B.V.", "915005986901")
-    .applies_to("Signify Netherlands B.V.", "915005987001")
-    .applies_to("Signify Netherlands B.V.", "915005987401")
-    .applies_to("Signify Netherlands B.V.", "915005987301")
+    .applies_to(SIGNIFY, "915005986901")
+    .applies_to(SIGNIFY, "915005987001")
+    .applies_to(SIGNIFY, "915005987401")
+    .applies_to(SIGNIFY, "915005987301")
     .friendly_name(
         model="Hue Signe Gradient Table Lamp",
         manufacturer="Philips",
