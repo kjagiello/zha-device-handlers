@@ -2,7 +2,7 @@
 
 from zigpy.quirks.v2 import QuirkBuilder
 
-from zhaquirks.philips import PhilipsHueCluster, SIGNIFY
+from zhaquirks.philips import SIGNIFY, PhilipsHueCluster
 
 (
     QuirkBuilder(SIGNIFY, "LCX001")
