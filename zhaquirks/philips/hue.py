@@ -98,6 +98,20 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueCluster
 
 (
     QuirkBuilder()
+    .applies_to(SIGNIFY, "929003116301")
+    .applies_to(SIGNIFY, "929003116401")
+    .applies_to(SIGNIFY, "929003116501")
+    .applies_to(SIGNIFY, "929003116601")
+    .friendly_name(
+        model="Hue Perifo Light Tube",
+        manufacturer="Philips",
+    )
+    .replaces(PhilipsHueCluster, endpoint_id=11)
+    .add_to_registry()
+)
+
+(
+    QuirkBuilder()
     .applies_to(PHILIPS, "7602031P7")
     .applies_to(PHILIPS, "7602031U7")
     .friendly_name(
