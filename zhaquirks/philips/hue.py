@@ -35,6 +35,17 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueCluster
 
 (
     QuirkBuilder()
+    .applies_to(SIGNIFY, "LTB003")
+    .friendly_name(
+        model="Hue White Ambiance BR30 E26",
+        manufacturer="Philips",
+    )
+    .replaces(PhilipsHueCluster, endpoint_id=11)
+    .add_to_registry()
+)
+
+(
+    QuirkBuilder()
     .applies_to(SIGNIFY, "929003116301")
     .applies_to(SIGNIFY, "929003116401")
     .applies_to(SIGNIFY, "929003116501")
