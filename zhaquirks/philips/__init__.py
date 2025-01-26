@@ -347,12 +347,12 @@ class PhilipsRwlRemoteCluster(PhilipsRemoteCluster):
     }
 
 
-class PhilipsHueCluster(CustomCluster):
+class PhilipsHueLightCluster(CustomCluster):
     """Philips Hue manufacturer cluster."""
 
     cluster_id: Final[t.uint16_t] = 0xFC03
-    ep_attribute: Final[str] = "philips_hue_cluster"
-    name: Final[str] = "PhilipsHueCluster"
+    ep_attribute: Final[str] = "philips_hue_light_cluster"
+    name: Final[str] = "PhilipsHueLightCluster"
 
     class ServerCommandDefs(BaseCommandDefs):
         """Server command definitions."""
