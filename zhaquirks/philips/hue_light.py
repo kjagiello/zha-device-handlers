@@ -2,7 +2,7 @@
 
 from zigpy.quirks.v2 import QuirkBuilder
 
-from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightClust
+from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightCluster
 
 (
     QuirkBuilder()
@@ -15,7 +15,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightClust
         model="Hue Play gradient lightstrip",
         manufacturer="Philips",
     )
-    .replaces(PhilipsHueLightClust, endpoint_id=11)
+    .replaces(PhilipsHueLightCluster, endpoint_id=11)
     .add_to_registry()
 )
 
@@ -29,7 +29,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightClust
         model="Hue Festavia gradient light string",
         manufacturer="Philips",
     )
-    .replaces(PhilipsHueLightClust, endpoint_id=11)
+    .replaces(PhilipsHueLightCluster, endpoint_id=11)
     .add_to_registry()
 )
 
@@ -40,7 +40,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightClust
         model="Hue White Ambiance BR30 E26",
         manufacturer="Philips",
     )
-    .replaces(PhilipsHueLightClust, endpoint_id=11)
+    .replaces(PhilipsHueLightCluster, endpoint_id=11)
     .add_to_registry()
 )
 
@@ -54,7 +54,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightClust
         model="Hue Perifo light tube",
         manufacturer="Philips",
     )
-    .replaces(PhilipsHueLightClust, endpoint_id=11)
+    .replaces(PhilipsHueLightCluster, endpoint_id=11)
     .add_to_registry()
 )
 
@@ -73,7 +73,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightClust
         model="Hue Signe gradient floor lamp",
         manufacturer="Philips",
     )
-    .replaces(PhilipsHueLightClust, endpoint_id=11)
+    .replaces(PhilipsHueLightCluster, endpoint_id=11)
     .add_to_registry()
 )
 
@@ -87,7 +87,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightClust
         model="Hue Signe gradient table lamp",
         manufacturer="Philips",
     )
-    .replaces(PhilipsHueLightClust, endpoint_id=11)
+    .replaces(PhilipsHueLightCluster, endpoint_id=11)
     .add_to_registry()
 )
 
@@ -103,7 +103,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightClust
         model="Hue Play gradient light tube",
         manufacturer="Philips",
     )
-    .replaces(PhilipsHueLightClust, endpoint_id=11)
+    .replaces(PhilipsHueLightCluster, endpoint_id=11)
     .add_to_registry()
 )
 
@@ -117,7 +117,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightClust
         model="Hue Perifo light tube",
         manufacturer="Philips",
     )
-    .replaces(PhilipsHueLightClust, endpoint_id=11)
+    .replaces(PhilipsHueLightCluster, endpoint_id=11)
     .add_to_registry()
 )
 
@@ -129,6 +129,6 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueLightClust
         model="Hue Go",
         manufacturer="Philips",
     )
-    .replaces(PhilipsHueLightClust, endpoint_id=11)
+    .replaces(PhilipsHueLightCluster, endpoint_id=11)
     .add_to_registry()
 )
