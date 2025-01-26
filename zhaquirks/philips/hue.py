@@ -12,7 +12,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueCluster
     .applies_to(SIGNIFY, "LCX005")
     .applies_to(SIGNIFY, "LCX006")
     .friendly_name(
-        model="Hue Play Gradient Lightstrip",
+        model="Hue Play gradient lightstrip",
         manufacturer="Philips",
     )
     .replaces(PhilipsHueCluster, endpoint_id=11)
@@ -26,7 +26,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueCluster
     .applies_to(SIGNIFY, "LCX016")
     .applies_to(SIGNIFY, "LCX017")
     .friendly_name(
-        model="Hue Festavia Gradient Light String",
+        model="Hue Festavia gradient light string",
         manufacturer="Philips",
     )
     .replaces(PhilipsHueCluster, endpoint_id=11)
@@ -51,7 +51,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueCluster
     .applies_to(SIGNIFY, "929003116501")
     .applies_to(SIGNIFY, "929003116601")
     .friendly_name(
-        model="Hue Perifo Light Tube",
+        model="Hue Perifo light tube",
         manufacturer="Philips",
     )
     .replaces(PhilipsHueCluster, endpoint_id=11)
@@ -70,7 +70,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueCluster
     .applies_to(SIGNIFY, "929003479601")
     .applies_to(SIGNIFY, "929003479701")
     .friendly_name(
-        model="Hue Signe Gradient Floor Lamp",
+        model="Hue Signe gradient floor lamp",
         manufacturer="Philips",
     )
     .replaces(PhilipsHueCluster, endpoint_id=11)
@@ -84,7 +84,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueCluster
     .applies_to(SIGNIFY, "915005987401")
     .applies_to(SIGNIFY, "915005987301")
     .friendly_name(
-        model="Hue Signe Gradient Table Lamp",
+        model="Hue Signe gradient table lamp",
         manufacturer="Philips",
     )
     .replaces(PhilipsHueCluster, endpoint_id=11)
@@ -100,7 +100,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueCluster
     .applies_to(SIGNIFY, "915005988401")
     .applies_to(SIGNIFY, "915005988501")
     .friendly_name(
-        model="Hue Play Gradient Light Tube",
+        model="Hue Play gradient light tube",
         manufacturer="Philips",
     )
     .replaces(PhilipsHueCluster, endpoint_id=11)
@@ -114,7 +114,7 @@ from zhaquirks.philips import PHILIPS, SIGNIFY, PhilipsHueCluster
     .applies_to(SIGNIFY, "929003116501")
     .applies_to(SIGNIFY, "929003116601")
     .friendly_name(
-        model="Hue Perifo Light Tube",
+        model="Hue Perifo light tube",
         manufacturer="Philips",
     )
     .replaces(PhilipsHueCluster, endpoint_id=11)
